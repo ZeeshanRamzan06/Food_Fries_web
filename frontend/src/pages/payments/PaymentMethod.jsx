@@ -19,7 +19,7 @@ const Payments = () => {
 
   return (
     <div className="main-container">
-      <div className="header">
+      <div className="heading">
         <h1>Complete Your Payment</h1>
         
       </div>
