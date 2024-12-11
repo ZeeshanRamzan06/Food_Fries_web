@@ -52,7 +52,7 @@
         elements,
         clientSecret,
         confirmParams: {
-          return_url: `https://food-fries-web.vercel.app/payment-success?amount=${amount}`,
+          return_url: `https://food-fries.vercel.app/payment-success?amount=${amount}`,
         },
       });
 
