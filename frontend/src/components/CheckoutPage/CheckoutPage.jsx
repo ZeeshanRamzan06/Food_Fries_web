@@ -15,10 +15,11 @@ const CheckoutPage = ({ amount }) => {
     return Math.round(amount * factor);
   };
 
+  const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000"; 
   useEffect(() => {
     const createPaymentIntent = async () => {
       try {
-        const response = await axios.post("http://localhost:5000/api/create-payment-intent", {
+        const response = await axios.post(`${apiUrl}/api/create-payment-intent`, {
           amount: convertToSubcurrency(amount),
         });
         console.log(response)
