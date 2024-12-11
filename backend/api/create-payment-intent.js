@@ -2,13 +2,11 @@ require("dotenv").config();
 const Stripe = require("stripe");
 const cors = require('cors');
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-
-
 const express = require("express");
+
 const app = express();
-const cors = require('cors');
 app.use(cors({
-  origin: 'https://food-fries-web.vercel.app', // Allow requests from your frontend domain
+  origin: 'https://food-fries-web.vercel.app', 
   methods: ['GET', 'POST'],
 }));
 app.use(express.json());
@@ -30,7 +28,9 @@ app.post("/api/create-payment-intent", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-});
+module.exports = app;
+
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => {
+//   console.log(`Server running on http://localhost:${PORT}`);
+// });
