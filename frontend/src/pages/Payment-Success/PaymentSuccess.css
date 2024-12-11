@@ -1,8 +1,8 @@
-/* PaymentSuccess.css */
+
 .payment-success-container {
-    max-width: 72rem; /* max-w-6xl equivalent */
-    margin: 2.5rem; /* m-10 equivalent */
-    padding: 2.5rem; /* p-10 equivalent */
+    max-width: 72rem; 
+    margin: 2.5rem; 
+    padding: 2.5rem; 
     text-align: center;
     color: white;
     border-radius: 0.375rem;
@@ -10,26 +10,26 @@
   }
   
   .thank-you-message {
-    margin-bottom: 2.5rem; /* mb-10 equivalent */
+    margin-bottom: 2.5rem; 
   }
   
   .thank-you-title {
-    font-size: 2.25rem; /* text-4xl equivalent */
-    font-weight: 800; /* font-extrabold equivalent */
-    margin-bottom: 0.5rem; /* mb-2 equivalent */
+    font-size: 2.25rem; 
+    font-weight: 800; 
+    margin-bottom: 0.5rem; 
   }
   
   .payment-success-text {
-    font-size: 1.5rem; /* text-2xl equivalent */
+    font-size: 1.5rem; 
   }
   
   .amount-box {
     background-color: white;
-    padding: 0.5rem; /* p-2 equivalent */
+    padding: 0.5rem;
     border-radius: 0.375rem;
-    color: #7e22ce; /* text-purple-500 equivalent */
-    margin-top: 1.25rem; /* mt-5 equivalent */
-    font-size: 2.25rem; /* text-4xl equivalent */
-    font-weight: 700; /* font-bold equivalent */
+    color: #7e22ce; 
+    margin-top: 1.25rem; 
+    font-size: 2.25rem; 
+    font-weight: 700; 
   }
   

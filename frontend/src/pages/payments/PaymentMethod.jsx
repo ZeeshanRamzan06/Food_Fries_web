@@ -18,12 +18,10 @@ const Payments = () => {
   };
 
   return (
-    <main className="main-container">
+    <div className="main-container">
       <div className="header">
-        <h1>Sonny</h1>
-        <h2>
-          has requested <span>${amount}</span>
-        </h2>
+        <h1>Complete Your Payment</h1>
+        
       </div>
 
       <Elements
@@ -36,7 +34,7 @@ const Payments = () => {
       >
         <CheckoutPage amount={amount} />
       </Elements>
-    </main>
+    </div>
   );
 };
 
