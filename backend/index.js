@@ -4,7 +4,7 @@ const cors = require("cors");
 const createPaymentIntent = require("./api/create-payment-intent.js"); 
 
 const app = express();
-app.use(cors({ origin: "https://your-frontend.vercel.app", methods: ['GET', 'POST'], })); 
+app.use(cors({ origin: "https://food-fries.vercel.app", methods: ['GET', 'POST'], })); 
 app.use(express.json());
 
 // Define the route
